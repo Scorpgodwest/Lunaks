@@ -3,7 +3,7 @@
     <v-app-bar
         app
         elevation="0"
-        color="#161B22"
+        color="#20232A"
         fixed
     >
 
@@ -13,7 +13,7 @@
 
 
       <v-spacer></v-spacer>
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon class="navigation-icon" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-menu>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
