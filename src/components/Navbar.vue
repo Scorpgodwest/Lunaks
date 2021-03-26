@@ -4,6 +4,7 @@
         app
         elevation="0"
         color="#161B22"
+        fixed
     >
 
       <h1 class="navbar-brand">
@@ -40,6 +41,7 @@
         v-model="drawer"
         fixed
         temporary
+        width="200px"
     >
     </v-navigation-drawer>
 
