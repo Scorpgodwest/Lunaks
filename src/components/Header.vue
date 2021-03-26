@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-      <v-card width="90%" color="#040D21" class="rounded-lg">
+      <v-card width="90%" color="#040D21" class="rounded-lg header-card">
         <v-container>
           <v-row no-gutters>
             <v-col>
@@ -9,7 +9,7 @@
             </v-col>
             <v-col>
               <div style="display: flex; justify-content: center">
-                <img src="../../public/logo.png" width="300px" height="300px">
+                <img src="../../public/logo.png" class="header-image">
               </div>
             </v-col>
           </v-row>
@@ -36,5 +36,18 @@ export default {
 .description {
   text-align: center;
   color: white;
+}
+.header-image {
+  width: 300px;
+  height: 300px;
+}
+.header-card {
+  background: linear-gradient(to top right, #5693AF, #040D21);
+}
+@media  screen and (max-width: 500px) {
+  .header-image {
+    width: 150px;
+    height: 150px;
+  }
 }
 </style>
