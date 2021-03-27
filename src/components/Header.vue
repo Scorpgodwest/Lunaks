@@ -4,14 +4,12 @@
       <v-container>
         <v-row no-gutters>
           <v-col>
-            <h1 class="description">The place for your project development</h1>
-            <p class="description">блаблаблабла, тут типо описание окда</p>
+            <h1 class="description1">The place for your project development</h1>
+            <p class="description2">блаблаблабла, тут типо описание окда</p>
             <v-row>
-              <v-col cols="8">
+              <v-col style="text-align: center">
                 <input type="text" placeholder="Email" class="register-input">
-              </v-col>
-              <v-col>
-                <button class="register-button">Sign up for Lunaks</button>
+                <button type="submit" class="register-button">Sign up for Lunaks</button>
               </v-col>
             </v-row>
           </v-col>
@@ -46,7 +44,13 @@ export default {
   margin-top: 15px;
 }
 
-.description {
+.description1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+.description2 {
   text-align: center;
   color: white;
 }
@@ -65,23 +69,30 @@ export default {
     width: 150px;
     height: 150px;
   }
+
+  .description1 {
+    font-size: 28px;
+  }
+
+  .register-input {
+    width: 140px;
+  }
 }
 
 .register-input {
   background: white;
   border-radius: 6px;
-
+  margin: 6px;
   height: 45px;
   padding: 5px;
-  margin: 6px;
 }
 
 .register-button {
   background: #33B256;
   border-radius: 6px;
   height: 45px;
-  margin: 6px;
   padding: 5px;
   color: white;
+  margin: 6px;
 }
 </style>

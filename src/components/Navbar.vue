@@ -13,7 +13,7 @@
 
 
       <v-spacer></v-spacer>
-      <v-app-bar-nav-icon class="navigation-icon" @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer" class="navigation-icon"></v-app-bar-nav-icon>
       <v-menu>
         <template v-slot:activator="{ on, attrs }">
           <v-btn
@@ -36,7 +36,6 @@
       <v-btn rounded class="navbar-item d-none d-sm-flex">Why Lunaks?</v-btn>
       <v-btn rounded class="navbar-item d-none d-sm-flex">Join</v-btn>
     </v-app-bar>
-
     <v-navigation-drawer
         v-model="drawer"
         fixed
@@ -44,7 +43,6 @@
         width="200px"
     >
     </v-navigation-drawer>
-
   </div>
 </template>
 
