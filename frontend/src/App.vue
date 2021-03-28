@@ -1,8 +1,8 @@
 <template>
-  <v-app style="background: linear-gradient(to bottom right, #633CBA, #F46D71); font-family: Avenir, Helvetica, Arial, sans-serif;">
+  <v-app
+      style="background: linear-gradient(to bottom right, #633CBA, #F46D71); font-family: Avenir, Helvetica, Arial, sans-serif;">
     <Navbar/>
-      <router-view/>
-
+    <router-view/>
   </v-app>
 </template>
 
