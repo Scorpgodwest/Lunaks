@@ -7,7 +7,7 @@
       </svg>
     </div>
     <div style="background: #F3F4F5; display: flex; justify-content: center;">
-      <v-card class="info-card" color="#040D21">
+      <v-card class="info-card rounded-lg" color="#040D21">
         <v-container>
           <v-row justify="center">
             <v-col>
